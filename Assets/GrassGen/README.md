@@ -5,9 +5,9 @@ quadratic Bézier curves.  This is a direct C# port of the browser-based
 [Grass texture generator](https://github.com/jmdejong/grassgen) by ~troido,
 preserving the algorithm and default parameters exactly.
 
-> **Licence:** GPL v3 – see [`LICENCE.txt`](../../LICENCE.txt) in the repository
+> **License:** GPL v3 – see [`LICENCE.txt`](../../LICENCE.txt) in the repository
 > root.  The original JavaScript (`main.js`, `hsv.js`, `index.html`) is unchanged
-> and remains under the same licence.
+> and remains under the same license.
 
 ---
 
@@ -17,7 +17,7 @@ preserving the algorithm and default parameters exactly.
 Assets/GrassGen/
 ├── Editor/
 │   ├── GrassGen.Editor.asmdef      ← editor-only assembly (auto-referenced)
-│   ├── GrassGenParams.cs           ← serialisable parameter class
+│   ├── GrassGenParams.cs           ← serializable parameter class
 │   ├── GrassGenerator.cs           ← core generation algorithm
 │   └── GrassGenWindow.cs           ← IMGUI EditorWindow
 ├── Tests/
